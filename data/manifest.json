@@ -1,0 +1,15 @@
+{
+  "source": "synthetic",
+  "seed": 42,
+  "repeats": 12,
+  "incidents": 720,
+  "split_counts": {
+    "train": 374,
+    "validation": 98,
+    "test": 104,
+    "challenge": 144
+  },
+  "grouping": "Both variants of an experiment share a split",
+  "challenge": "Held-out service/fault pairs",
+  "warning": "Synthetic demonstration data. Not production evidence. No customer telemetry."
+}

@@ -1,0 +1,23 @@
+{
+  "frontend": "Bundled no-Node dashboard, not the Next.js application",
+  "browser": "Chromium / Playwright",
+  "transport": "Real API via Python HTTP bridge; SSE buffered",
+  "checks": [
+    "Login and authorized incident loading",
+    "ML ranking and investigation result rendering",
+    "Source evidence inspection",
+    "Feedback persistence",
+    "Non-executing human review",
+    "Tool activity trace",
+    "Measured evaluation dashboard",
+    "Review audit trail",
+    "Mobile layout without horizontal overflow",
+    "Imported telemetry HTML is escaped"
+  ],
+  "passed": 10,
+  "uncaught_javascript_errors": [],
+  "mobile_dimensions": {
+    "viewport": 390,
+    "document": 390
+  }
+}

@@ -1,0 +1,30 @@
+services:
+  api:
+    build: .
+    env_file: .env
+    environment:
+      TRACELENS_ROOT: /app
+      DATABASE_URL: sqlite:////app/.tracelens/app.db
+    ports: ["127.0.0.1:8000:8000"]
+    volumes: ["tracelens-state:/app/.tracelens"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 25s
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+  web:
+    profiles: ["web"]
+    build: ./web
+    environment:
+      API_ORIGIN: http://api:8000
+    ports: ["127.0.0.1:3000:3000"]
+    depends_on:
+      api:
+        condition: service_healthy
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+volumes:
+  tracelens-state:

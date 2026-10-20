@@ -1,0 +1,555 @@
+{
+  "ranking": {
+    "candidates": [
+      {
+        "service": "database",
+        "probability": 0.9842349886894226,
+        "score": 14.609654426574707
+      },
+      {
+        "service": "payment",
+        "probability": 0.00803621020168066,
+        "score": 14.128864288330078
+      },
+      {
+        "service": "checkout",
+        "probability": 0.007728700991719961,
+        "score": 14.124961853027344
+      },
+      {
+        "service": "gateway",
+        "probability": 1.1719961179323946e-07,
+        "score": 13.015304565429688
+      }
+    ],
+    "abstain": true,
+    "reasons": [
+      "Calibration only evaluated on synthetic incidents",
+      "Insufficient incident signal in the supplied time window"
+    ],
+    "model_version": "fusion-gru-v1-seed42",
+    "acceptance_threshold": 0.35,
+    "score_note": "Candidate-relative probabilities; not proof of causality or production-calibrated confidence"
+  },
+  "diagnosis": {
+    "status": "inconclusive",
+    "likely_service": "database",
+    "summary": "database is the model's highest-ranked hypothesis. Inspect the cited telemetry and compare the alternative candidates before acting.",
+    "claims": [
+      {
+        "text": "database error rate changed from 8.3% to 33.3%; mean latency changed from 4 to 12 ms.",
+        "evidence_ids": [
+          "metrics:database"
+        ]
+      },
+      {
+        "text": "A retrieved error log from database says: statement timeout while waiting for a local lock",
+        "evidence_ids": [
+          "log:event-5db6ef828f64ef05bb0fe515aceeb48f-3c333f5e2ff88e47-0"
+        ]
+      },
+      {
+        "text": "12 retrieved failed spans involve database as a caller or target. This shows association, not proof of the initiating fault.",
+        "evidence_ids": [
+          "trace:span-5db6ef828f64ef05bb0fe515aceeb48f-3c333f5e2ff88e47",
+          "trace:edge-5db6ef828f64ef05bb0fe515aceeb48f-3c333f5e2ff88e47",
+          "trace:span-4baa0aa408cf65188780d388f0e9edae-0b1bd2b229ea3fbe",
+          "trace:edge-4baa0aa408cf65188780d388f0e9edae-0b1bd2b229ea3fbe",
+          "trace:span-deaf49efb7f449404df3eafa14751c66-73fc68abf52a5676",
+          "trace:edge-deaf49efb7f449404df3eafa14751c66-73fc68abf52a5676",
+          "trace:span-c52dc6ec46e6cb8effa6c334cb23ef45-7e8aed96e7dd761f",
+          "trace:edge-c52dc6ec46e6cb8effa6c334cb23ef45-7e8aed96e7dd761f"
+        ]
+      }
+    ],
+    "next_steps": [
+      "Check statement timeouts, local query duration and lock waits. Inspect slow query traces. Reproduce with a read-only query plan in a test database.",
+      "Validate any change in an isolated sandbox; this application never executes remediation."
+    ],
+    "limitations": [
+      "Calibration only evaluated on synthetic incidents",
+      "Insufficient incident signal in the supplied time window",
+      "Reference checks establish citation existence, not causal correctness.",
+      "Offline policy gathers evidence deterministically; no language model was called."
+    ]
+  },
+  "evidence": [
+    {
+      "id": "metrics:database",
+      "kind": "metrics",
+      "service": "database",
+      "data": {
+        "error_rate": {
+          "baseline": 0.0833,
+          "recent": 0.3333,
+          "peak": 1.0
+        },
+        "latency_ms": {
+          "baseline": 4.1625,
+          "recent": 11.7463,
+          "peak": 35.2431
+        },
+        "request_rate": {
+          "baseline": 95.4504,
+          "recent": 21.2112,
+          "peak": 190.9007
+        },
+        "cpu_pct": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "peak": 0.0
+        },
+        "memory_mb": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "peak": 0.0
+        },
+        "queue_depth": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "peak": 0.0
+        }
+      }
+    },
+    {
+      "id": "log:event-d4e2a2df211a387093281b644cf8ef69-80fa3dba05ce9970-0",
+      "kind": "log",
+      "service": "database",
+      "data": {
+        "time": 3,
+        "level": "ERROR",
+        "message": "statement timeout while waiting for a local lock"
+      }
+    },
+    {
+      "id": "log:event-1648bba5a913ab988c0434ee695f2de3-71df086853b5df2b-0",
+      "kind": "log",
+      "service": "database",
+      "data": {
+        "time": 6,
+        "level": "ERROR",
+        "message": "statement timeout while waiting for a local lock"
+      }
+    },
+    {
+      "id": "log:event-183eca160c85841ca6418811a81b68f0-38b9b05d431ead0c-0",
+      "kind": "log",
+      "service": "database",
+      "data": {
+        "time": 8,
+        "level": "ERROR",
+        "message": "statement timeout while waiting for a local lock"
+      }
+    },
+    {
+      "id": "log:event-b7226cefed82edd0163ce0cf8bee0276-406b5102e3153cf3-0",
+      "kind": "log",
+      "service": "database",
+      "data": {
+        "time": 11,
+        "level": "ERROR",
+        "message": "statement timeout while waiting for a local lock"
+      }
+    },
+    {
+      "id": "log:event-c52dc6ec46e6cb8effa6c334cb23ef45-7e8aed96e7dd761f-0",
+      "kind": "log",
+      "service": "database",
+      "data": {
+        "time": 14,
+        "level": "ERROR",
+        "message": "statement timeout while waiting for a local lock"
+      }
+    },
+    {
+      "id": "log:event-deaf49efb7f449404df3eafa14751c66-73fc68abf52a5676-0",
+      "kind": "log",
+      "service": "database",
+      "data": {
+        "time": 16,
+        "level": "ERROR",
+        "message": "statement timeout while waiting for a local lock"
+      }
+    },
+    {
+      "id": "log:event-4baa0aa408cf65188780d388f0e9edae-0b1bd2b229ea3fbe-0",
+      "kind": "log",
+      "service": "database",
+      "data": {
+        "time": 19,
+        "level": "ERROR",
+        "message": "statement timeout while waiting for a local lock"
+      }
+    },
+    {
+      "id": "log:event-5db6ef828f64ef05bb0fe515aceeb48f-3c333f5e2ff88e47-0",
+      "kind": "log",
+      "service": "database",
+      "data": {
+        "time": 21,
+        "level": "ERROR",
+        "message": "statement timeout while waiting for a local lock"
+      }
+    },
+    {
+      "id": "trace:span-5db6ef828f64ef05bb0fe515aceeb48f-3c333f5e2ff88e47",
+      "kind": "trace",
+      "service": "database",
+      "data": {
+        "id": "span-5db6ef828f64ef05bb0fe515aceeb48f-3c333f5e2ff88e47",
+        "service": "database",
+        "target": null,
+        "time": 21,
+        "duration_ms": 35.240966,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "5db6ef828f64ef05bb0fe515aceeb48f"
+      }
+    },
+    {
+      "id": "trace:edge-5db6ef828f64ef05bb0fe515aceeb48f-3c333f5e2ff88e47",
+      "kind": "trace",
+      "service": "payment",
+      "data": {
+        "id": "edge-5db6ef828f64ef05bb0fe515aceeb48f-3c333f5e2ff88e47",
+        "service": "payment",
+        "target": "database",
+        "time": 21,
+        "duration_ms": 35.240966,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "5db6ef828f64ef05bb0fe515aceeb48f"
+      }
+    },
+    {
+      "id": "trace:span-4baa0aa408cf65188780d388f0e9edae-0b1bd2b229ea3fbe",
+      "kind": "trace",
+      "service": "database",
+      "data": {
+        "id": "span-4baa0aa408cf65188780d388f0e9edae-0b1bd2b229ea3fbe",
+        "service": "database",
+        "target": null,
+        "time": 19,
+        "duration_ms": 35.236566,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "4baa0aa408cf65188780d388f0e9edae"
+      }
+    },
+    {
+      "id": "trace:edge-4baa0aa408cf65188780d388f0e9edae-0b1bd2b229ea3fbe",
+      "kind": "trace",
+      "service": "payment",
+      "data": {
+        "id": "edge-4baa0aa408cf65188780d388f0e9edae-0b1bd2b229ea3fbe",
+        "service": "payment",
+        "target": "database",
+        "time": 19,
+        "duration_ms": 35.236566,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "4baa0aa408cf65188780d388f0e9edae"
+      }
+    },
+    {
+      "id": "trace:span-deaf49efb7f449404df3eafa14751c66-73fc68abf52a5676",
+      "kind": "trace",
+      "service": "database",
+      "data": {
+        "id": "span-deaf49efb7f449404df3eafa14751c66-73fc68abf52a5676",
+        "service": "database",
+        "target": null,
+        "time": 16,
+        "duration_ms": 35.235087,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "deaf49efb7f449404df3eafa14751c66"
+      }
+    },
+    {
+      "id": "trace:edge-deaf49efb7f449404df3eafa14751c66-73fc68abf52a5676",
+      "kind": "trace",
+      "service": "payment",
+      "data": {
+        "id": "edge-deaf49efb7f449404df3eafa14751c66-73fc68abf52a5676",
+        "service": "payment",
+        "target": "database",
+        "time": 16,
+        "duration_ms": 35.235087,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "deaf49efb7f449404df3eafa14751c66"
+      }
+    },
+    {
+      "id": "trace:span-c52dc6ec46e6cb8effa6c334cb23ef45-7e8aed96e7dd761f",
+      "kind": "trace",
+      "service": "database",
+      "data": {
+        "id": "span-c52dc6ec46e6cb8effa6c334cb23ef45-7e8aed96e7dd761f",
+        "service": "database",
+        "target": null,
+        "time": 14,
+        "duration_ms": 35.243109,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "c52dc6ec46e6cb8effa6c334cb23ef45"
+      }
+    },
+    {
+      "id": "trace:edge-c52dc6ec46e6cb8effa6c334cb23ef45-7e8aed96e7dd761f",
+      "kind": "trace",
+      "service": "payment",
+      "data": {
+        "id": "edge-c52dc6ec46e6cb8effa6c334cb23ef45-7e8aed96e7dd761f",
+        "service": "payment",
+        "target": "database",
+        "time": 14,
+        "duration_ms": 35.243109,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "c52dc6ec46e6cb8effa6c334cb23ef45"
+      }
+    },
+    {
+      "id": "trace:span-b7226cefed82edd0163ce0cf8bee0276-406b5102e3153cf3",
+      "kind": "trace",
+      "service": "database",
+      "data": {
+        "id": "span-b7226cefed82edd0163ce0cf8bee0276-406b5102e3153cf3",
+        "service": "database",
+        "target": null,
+        "time": 11,
+        "duration_ms": 35.203278,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "b7226cefed82edd0163ce0cf8bee0276"
+      }
+    },
+    {
+      "id": "trace:edge-b7226cefed82edd0163ce0cf8bee0276-406b5102e3153cf3",
+      "kind": "trace",
+      "service": "payment",
+      "data": {
+        "id": "edge-b7226cefed82edd0163ce0cf8bee0276-406b5102e3153cf3",
+        "service": "payment",
+        "target": "database",
+        "time": 11,
+        "duration_ms": 35.203278,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "b7226cefed82edd0163ce0cf8bee0276"
+      }
+    },
+    {
+      "id": "trace:span-183eca160c85841ca6418811a81b68f0-38b9b05d431ead0c",
+      "kind": "trace",
+      "service": "database",
+      "data": {
+        "id": "span-183eca160c85841ca6418811a81b68f0-38b9b05d431ead0c",
+        "service": "database",
+        "target": null,
+        "time": 8,
+        "duration_ms": 35.226012,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "183eca160c85841ca6418811a81b68f0"
+      }
+    },
+    {
+      "id": "trace:edge-183eca160c85841ca6418811a81b68f0-38b9b05d431ead0c",
+      "kind": "trace",
+      "service": "payment",
+      "data": {
+        "id": "edge-183eca160c85841ca6418811a81b68f0-38b9b05d431ead0c",
+        "service": "payment",
+        "target": "database",
+        "time": 8,
+        "duration_ms": 35.226012,
+        "status": "ERROR",
+        "operation": "SELECT account",
+        "trace_id": "183eca160c85841ca6418811a81b68f0"
+      }
+    },
+    {
+      "id": "metrics:payment",
+      "kind": "metrics",
+      "service": "payment",
+      "data": {
+        "error_rate": {
+          "baseline": 0.0833,
+          "recent": 0.3333,
+          "peak": 1.0
+        },
+        "latency_ms": {
+          "baseline": 4.185,
+          "recent": 11.7582,
+          "peak": 35.2801
+        },
+        "request_rate": {
+          "baseline": 95.4504,
+          "recent": 21.2112,
+          "peak": 190.9007
+        },
+        "cpu_pct": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "peak": 0.0
+        },
+        "memory_mb": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "peak": 0.0
+        },
+        "queue_depth": {
+          "baseline": 0.0,
+          "recent": 0.0,
+          "peak": 0.0
+        }
+      }
+    },
+    {
+      "id": "trace:span-5db6ef828f64ef05bb0fe515aceeb48f-7ff087f3f6cc4f19",
+      "kind": "trace",
+      "service": "payment",
+      "data": {
+        "id": "span-5db6ef828f64ef05bb0fe515aceeb48f-7ff087f3f6cc4f19",
+        "service": "payment",
+        "target": null,
+        "time": 21,
+        "duration_ms": 35.275968,
+        "status": "ERROR",
+        "operation": "payment.authorize",
+        "trace_id": "5db6ef828f64ef05bb0fe515aceeb48f"
+      }
+    },
+    {
+      "id": "trace:edge-5db6ef828f64ef05bb0fe515aceeb48f-7ff087f3f6cc4f19",
+      "kind": "trace",
+      "service": "checkout",
+      "data": {
+        "id": "edge-5db6ef828f64ef05bb0fe515aceeb48f-7ff087f3f6cc4f19",
+        "service": "checkout",
+        "target": "payment",
+        "time": 21,
+        "duration_ms": 35.275968,
+        "status": "ERROR",
+        "operation": "payment.authorize",
+        "trace_id": "5db6ef828f64ef05bb0fe515aceeb48f"
+      }
+    },
+    {
+      "id": "trace:span-4baa0aa408cf65188780d388f0e9edae-c21e31f8176eb866",
+      "kind": "trace",
+      "service": "payment",
+      "data": {
+        "id": "span-4baa0aa408cf65188780d388f0e9edae-c21e31f8176eb866",
+        "service": "payment",
+        "target": null,
+        "time": 19,
+        "duration_ms": 35.273421,
+        "status": "ERROR",
+        "operation": "payment.authorize",
+        "trace_id": "4baa0aa408cf65188780d388f0e9edae"
+      }
+    },
+    {
+      "id": "trace:edge-4baa0aa408cf65188780d388f0e9edae-c21e31f8176eb866",
+      "kind": "trace",
+      "service": "checkout",
+      "data": {
+        "id": "edge-4baa0aa408cf65188780d388f0e9edae-c21e31f8176eb866",
+        "service": "checkout",
+        "target": "payment",
+        "time": 19,
+        "duration_ms": 35.273421,
+        "status": "ERROR",
+        "operation": "payment.authorize",
+        "trace_id": "4baa0aa408cf65188780d388f0e9edae"
+      }
+    },
+    {
+      "id": "trace:span-deaf49efb7f449404df3eafa14751c66-b1fb30461ceda001",
+      "kind": "trace",
+      "service": "payment",
+      "data": {
+        "id": "span-deaf49efb7f449404df3eafa14751c66-b1fb30461ceda001",
+        "service": "payment",
+        "target": null,
+        "time": 16,
+        "duration_ms": 35.271321,
+        "status": "ERROR",
+        "operation": "payment.authorize",
+        "trace_id": "deaf49efb7f449404df3eafa14751c66"
+      }
+    },
+    {
+      "id": "trace:edge-deaf49efb7f449404df3eafa14751c66-b1fb30461ceda001",
+      "kind": "trace",
+      "service": "checkout",
+      "data": {
+        "id": "edge-deaf49efb7f449404df3eafa14751c66-b1fb30461ceda001",
+        "service": "checkout",
+        "target": "payment",
+        "time": 16,
+        "duration_ms": 35.271321,
+        "status": "ERROR",
+        "operation": "payment.authorize",
+        "trace_id": "deaf49efb7f449404df3eafa14751c66"
+      }
+    },
+    {
+      "id": "trace:span-c52dc6ec46e6cb8effa6c334cb23ef45-60295a897bc39643",
+      "kind": "trace",
+      "service": "payment",
+      "data": {
+        "id": "span-c52dc6ec46e6cb8effa6c334cb23ef45-60295a897bc39643",
+        "service": "payment",
+        "target": null,
+        "time": 14,
+        "duration_ms": 35.280085,
+        "status": "ERROR",
+        "operation": "payment.authorize",
+        "trace_id": "c52dc6ec46e6cb8effa6c334cb23ef45"
+      }
+    },
+    {
+      "id": "trace:edge-c52dc6ec46e6cb8effa6c334cb23ef45-60295a897bc39643",
+      "kind": "trace",
+      "service": "checkout",
+      "data": {
+        "id": "edge-c52dc6ec46e6cb8effa6c334cb23ef45-60295a897bc39643",
+        "service": "checkout",
+        "target": "payment",
+        "time": 14,
+        "duration_ms": 35.280085,
+        "status": "ERROR",
+        "operation": "payment.authorize",
+        "trace_id": "c52dc6ec46e6cb8effa6c334cb23ef45"
+      }
+    },
+    {
+      "id": "runbook:database",
+      "kind": "runbook",
+      "service": null,
+      "data": {
+        "id": "runbook:database",
+        "title": "Slow queries and lock contention",
+        "text": "Check statement timeouts, local query duration and lock waits. Inspect slow query traces. Reproduce with a read-only query plan in a test database."
+      }
+    }
+  ],
+  "provider": {
+    "requested_mode": "offline",
+    "effective_mode": "offline",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "calls": 0
+  },
+  "tool_calls": 8,
+  "duration_ms": 10.53,
+  "remediation": {
+    "mode": "approval-record-only",
+    "executes_infrastructure_changes": false
+  }
+}

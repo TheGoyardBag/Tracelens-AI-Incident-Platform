@@ -1,0 +1,13 @@
+export type IncidentSummary={id:string;title:string;source:string;created_at:string};
+export type Service={name:string;metrics:Record<string,number[]>};
+export type Incident={id:string;title:string;source:string;services:Service[]};
+export type Candidate={service:string;probability:number;score:number};
+export type Evidence={id:string;kind:string;service:string|null;data:Record<string,unknown>};
+export type Claim={text:string;evidence_ids:string[]};
+export type Diagnosis={status:'supported'|'inconclusive';likely_service:string|null;summary:string;claims:Claim[];next_steps:string[];limitations:string[]};
+export type Result={ranking:{candidates:Candidate[];abstain:boolean;reasons:string[]};diagnosis:Diagnosis;evidence:Evidence[];provider:{requested_mode:string;effective_mode:string;calls:number;input_tokens:number;output_tokens:number};tool_calls:number;duration_ms:number};
+export type Run={id:string;incident_id:string;status:string;result?:Result|null;error?:string|null};
+export type Step={id:number;kind:string;payload:Record<string,unknown>;created_at:string};
+export type Metrics={top1:number;top3:number;mrr:number;nll:number;coverage?:number;selective_accuracy?:number|null};
+export type Evaluation={source:string;warning:string;seed:number;split_counts:Record<string,number>;results:Record<string,Record<string,Metrics>>;confidence_interval:string};
+export type Audit={id:number;action:string;resource_id:string;created_at:string};

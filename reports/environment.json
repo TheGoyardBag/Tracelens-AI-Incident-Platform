@@ -1,0 +1,23 @@
+{
+  "python": "3.13.5",
+  "platform": "Linux x86_64",
+  "node": "v22.16.0",
+  "typescript": "5.8.3",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "fastapi": "0.128.2",
+    "pydantic": "2.13.5",
+    "sqlalchemy": "2.0.50",
+    "httpx": "0.28.1",
+    "pytest": "9.0.2",
+    "opentelemetry-sdk": "1.42.1",
+    "playwright": "1.57.0"
+  },
+  "notes": [
+    "Existing environment; pip editable install used --no-deps --no-build-isolation.",
+    "Full Next.js dependency installation and production build not executed.",
+    "No secrets, database contents or paid provider credentials are part of this report."
+  ]
+}

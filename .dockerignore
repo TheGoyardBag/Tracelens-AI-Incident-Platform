@@ -1,0 +1,15 @@
+.git
+.venv
+.env
+.tracelens
+__pycache__
+**/__pycache__
+**/node_modules
+**/.next
+.pytest_cache
+.coverage
+*.zip
+data/incidents.jsonl.gz
+data/labels.jsonl
+data/imported
+data/raw

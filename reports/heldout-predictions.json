@@ -1,0 +1,1986 @@
+[
+  {
+    "incident_id": "inc-0000-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0000-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0001-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0001-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0002-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0002-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0003-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0003-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0004-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0004-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0005-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0005-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0006-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0006-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0007-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 0.9999999999986191,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0007-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0008-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "checkout",
+    "candidate_probability": 0.9999972058533959,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0008-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0009-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0009-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 0.9999975204444338,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0010-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0010-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0011-0",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0011-1",
+    "split": "challenge",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0018-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0018-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0023-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0023-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0026-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0026-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0027-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0027-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 0.9999999999999087,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0028-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0028-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0034-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0034-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0035-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0035-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0043-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0043-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0046-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0046-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0047-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0047-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0048-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0048-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0052-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0052-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0053-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0053-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0055-0",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0055-1",
+    "split": "test",
+    "expected": "gateway",
+    "predicted": "gateway",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0061-0",
+    "split": "test",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0061-1",
+    "split": "test",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0065-0",
+    "split": "test",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0065-1",
+    "split": "test",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0069-0",
+    "split": "test",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0069-1",
+    "split": "test",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0081-0",
+    "split": "test",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0081-1",
+    "split": "test",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0084-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0084-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0085-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0085-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0086-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0086-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0087-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0087-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0088-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0088-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "gateway",
+    "candidate_probability": 0.9999999968469704,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0089-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0089-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0090-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0090-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0091-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0091-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0092-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0092-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0093-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0093-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0094-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0094-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0095-0",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0095-1",
+    "split": "challenge",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0100-0",
+    "split": "test",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0100-1",
+    "split": "test",
+    "expected": "checkout",
+    "predicted": "checkout",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0121-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0121-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "cache",
+    "candidate_probability": 0.9999296317967216,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0126-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0126-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0129-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0129-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0133-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0133-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0134-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 0.9999999999928932,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0134-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0137-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0137-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0153-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0153-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0160-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0160-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0161-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0161-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0163-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0163-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0165-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0165-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0166-0",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0166-1",
+    "split": "test",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0168-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0168-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0169-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0169-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0170-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0170-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0171-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0171-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0172-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0172-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0173-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0173-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0174-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0174-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0175-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0175-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0176-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0176-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0177-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0177-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0178-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0178-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0179-0",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0179-1",
+    "split": "challenge",
+    "expected": "payment",
+    "predicted": "payment",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0192-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0192-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0193-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0193-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0194-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0194-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0195-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0195-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0196-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0196-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0197-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0197-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0198-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0198-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0199-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0199-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0200-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0200-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0201-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0201-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0202-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0202-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0203-0",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0203-1",
+    "split": "challenge",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0208-0",
+    "split": "test",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0208-1",
+    "split": "test",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0211-0",
+    "split": "test",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0211-1",
+    "split": "test",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0223-0",
+    "split": "test",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0223-1",
+    "split": "test",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0230-0",
+    "split": "test",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0230-1",
+    "split": "test",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0238-0",
+    "split": "test",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0238-1",
+    "split": "test",
+    "expected": "catalog",
+    "predicted": "catalog",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0242-0",
+    "split": "test",
+    "expected": "database",
+    "predicted": "cache",
+    "candidate_probability": 0.9999814228463981,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0242-1",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0243-0",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0243-1",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0256-0",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0256-1",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0259-0",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0259-1",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0260-0",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0260-1",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0276-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0276-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0277-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0277-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0278-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0278-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0279-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0279-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0280-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0280-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0281-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0281-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0282-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0282-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0283-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0283-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0284-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0284-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0285-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0285-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0286-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0286-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0287-0",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0287-1",
+    "split": "challenge",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0294-0",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0294-1",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0297-0",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0297-1",
+    "split": "test",
+    "expected": "database",
+    "predicted": "database",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0300-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0300-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0301-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0301-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0302-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0302-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0303-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0303-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0304-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0304-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0305-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0305-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0306-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 0.8680712992307366,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0306-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0307-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0307-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0308-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0308-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0309-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0309-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0310-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0310-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0311-0",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0311-1",
+    "split": "challenge",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0312-0",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0312-1",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0320-0",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0320-1",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0327-0",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0327-1",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0329-0",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0329-1",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0338-0",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0338-1",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0339-0",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0339-1",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0347-0",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0347-1",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0348-0",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0348-1",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0350-0",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  },
+  {
+    "incident_id": "inc-0350-1",
+    "split": "test",
+    "expected": "cache",
+    "predicted": "cache",
+    "candidate_probability": 1.0,
+    "accepted": true
+  }
+]

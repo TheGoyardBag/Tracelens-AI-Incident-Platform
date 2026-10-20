@@ -1,0 +1,6 @@
+{
+  "check": "TypeScript/TSX syntax transpilation only; NOT full React/Next type checking or a production build",
+  "compiler": "5.8.3",
+  "files": 7,
+  "errors": []
+}

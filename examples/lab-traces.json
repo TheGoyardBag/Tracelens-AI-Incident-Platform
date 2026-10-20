@@ -1,0 +1,1104 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "database"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": {
+            "name": "tracelens-lab"
+          },
+          "spans": [
+            {
+              "traceId": "c39917b5e101d257f54f0e5cb8008719",
+              "spanId": "aa8702314c77e461",
+              "parentSpanId": "d25699e52ba255de",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471513977300707",
+              "endTimeUnixNano": "1792471513979396609",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "9be73222b266c2d4b301bd6cff808d06",
+              "spanId": "35bb19154c35f647",
+              "parentSpanId": "b25de867545d0459",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471513984596694",
+              "endTimeUnixNano": "1792471513986685585",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "cd8dc88a1300f3dff1df0fe63e96ec72",
+              "spanId": "5e89bea38c15ddb3",
+              "parentSpanId": "7a23431ebda85121",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471513991878740",
+              "endTimeUnixNano": "1792471513993980340",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "c233970354f1a66f7d584e7e125aa5c3",
+              "spanId": "1c82cfd17a71bb5b",
+              "parentSpanId": "44fe1da02e30a634",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471513999157751",
+              "endTimeUnixNano": "1792471514001237799",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "4d35c984927169a62bc54d35bcf2f73f",
+              "spanId": "b797767e4cf5beca",
+              "parentSpanId": "9e78eda511e042d6",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514006414338",
+              "endTimeUnixNano": "1792471514008495999",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "594626b6ecc4fdcfedd401f903aa192c",
+              "spanId": "9a8a8b605d2cdd3c",
+              "parentSpanId": "98a886e03a281204",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514013674091",
+              "endTimeUnixNano": "1792471514015752777",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "d7e9fdc3229d4563d8e3e02d3a40c47c",
+              "spanId": "a0dfef9ff2ec4bb9",
+              "parentSpanId": "a74c209aa8b7d2c1",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514020940223",
+              "endTimeUnixNano": "1792471514023020251",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "56182bd3d499eccbe33abd599002443f",
+              "spanId": "d6742b4df15f68fb",
+              "parentSpanId": "9c70ad69f69ce67f",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514028206555",
+              "endTimeUnixNano": "1792471514030295336",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "d4e2a2df211a387093281b644cf8ef69",
+              "spanId": "80fa3dba05ce9970",
+              "parentSpanId": "8920804ca24eb303",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514035566368",
+              "endTimeUnixNano": "1792471514070916548",
+              "status": {
+                "code": 2
+              },
+              "events": [
+                {
+                  "name": "exception",
+                  "timeUnixNano": "1792471514070865501",
+                  "attributes": [
+                    {
+                      "key": "exception.type",
+                      "value": {
+                        "stringValue": "TimeoutError"
+                      }
+                    },
+                    {
+                      "key": "exception.message",
+                      "value": {
+                        "stringValue": "statement timeout while waiting for a local lock"
+                      }
+                    },
+                    {
+                      "key": "exception.stacktrace",
+                      "value": {
+                        "stringValue": "TimeoutError: statement timeout while waiting for a local lock\n"
+                      }
+                    },
+                    {
+                      "key": "exception.escaped",
+                      "value": {
+                        "stringValue": "False"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "traceId": "1648bba5a913ab988c0434ee695f2de3",
+              "spanId": "71df086853b5df2b",
+              "parentSpanId": "664cb24c5e9d0b41",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514076175562",
+              "endTimeUnixNano": "1792471514111413863",
+              "status": {
+                "code": 2
+              },
+              "events": [
+                {
+                  "name": "exception",
+                  "timeUnixNano": "1792471514111390338",
+                  "attributes": [
+                    {
+                      "key": "exception.type",
+                      "value": {
+                        "stringValue": "TimeoutError"
+                      }
+                    },
+                    {
+                      "key": "exception.message",
+                      "value": {
+                        "stringValue": "statement timeout while waiting for a local lock"
+                      }
+                    },
+                    {
+                      "key": "exception.stacktrace",
+                      "value": {
+                        "stringValue": "TimeoutError: statement timeout while waiting for a local lock\n"
+                      }
+                    },
+                    {
+                      "key": "exception.escaped",
+                      "value": {
+                        "stringValue": "False"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "traceId": "183eca160c85841ca6418811a81b68f0",
+              "spanId": "38b9b05d431ead0c",
+              "parentSpanId": "e413e0ba7cdc171c",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514116667199",
+              "endTimeUnixNano": "1792471514151893211",
+              "status": {
+                "code": 2
+              },
+              "events": [
+                {
+                  "name": "exception",
+                  "timeUnixNano": "1792471514151866681",
+                  "attributes": [
+                    {
+                      "key": "exception.type",
+                      "value": {
+                        "stringValue": "TimeoutError"
+                      }
+                    },
+                    {
+                      "key": "exception.message",
+                      "value": {
+                        "stringValue": "statement timeout while waiting for a local lock"
+                      }
+                    },
+                    {
+                      "key": "exception.stacktrace",
+                      "value": {
+                        "stringValue": "TimeoutError: statement timeout while waiting for a local lock\n"
+                      }
+                    },
+                    {
+                      "key": "exception.escaped",
+                      "value": {
+                        "stringValue": "False"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "traceId": "b7226cefed82edd0163ce0cf8bee0276",
+              "spanId": "406b5102e3153cf3",
+              "parentSpanId": "d3b4803f30326629",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514157179306",
+              "endTimeUnixNano": "1792471514192382584",
+              "status": {
+                "code": 2
+              },
+              "events": [
+                {
+                  "name": "exception",
+                  "timeUnixNano": "1792471514192362835",
+                  "attributes": [
+                    {
+                      "key": "exception.type",
+                      "value": {
+                        "stringValue": "TimeoutError"
+                      }
+                    },
+                    {
+                      "key": "exception.message",
+                      "value": {
+                        "stringValue": "statement timeout while waiting for a local lock"
+                      }
+                    },
+                    {
+                      "key": "exception.stacktrace",
+                      "value": {
+                        "stringValue": "TimeoutError: statement timeout while waiting for a local lock\n"
+                      }
+                    },
+                    {
+                      "key": "exception.escaped",
+                      "value": {
+                        "stringValue": "False"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "traceId": "c52dc6ec46e6cb8effa6c334cb23ef45",
+              "spanId": "7e8aed96e7dd761f",
+              "parentSpanId": "60295a897bc39643",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514197612053",
+              "endTimeUnixNano": "1792471514232855162",
+              "status": {
+                "code": 2
+              },
+              "events": [
+                {
+                  "name": "exception",
+                  "timeUnixNano": "1792471514232831336",
+                  "attributes": [
+                    {
+                      "key": "exception.type",
+                      "value": {
+                        "stringValue": "TimeoutError"
+                      }
+                    },
+                    {
+                      "key": "exception.message",
+                      "value": {
+                        "stringValue": "statement timeout while waiting for a local lock"
+                      }
+                    },
+                    {
+                      "key": "exception.stacktrace",
+                      "value": {
+                        "stringValue": "TimeoutError: statement timeout while waiting for a local lock\n"
+                      }
+                    },
+                    {
+                      "key": "exception.escaped",
+                      "value": {
+                        "stringValue": "False"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "traceId": "deaf49efb7f449404df3eafa14751c66",
+              "spanId": "73fc68abf52a5676",
+              "parentSpanId": "b1fb30461ceda001",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514238092543",
+              "endTimeUnixNano": "1792471514273327630",
+              "status": {
+                "code": 2
+              },
+              "events": [
+                {
+                  "name": "exception",
+                  "timeUnixNano": "1792471514273303984",
+                  "attributes": [
+                    {
+                      "key": "exception.type",
+                      "value": {
+                        "stringValue": "TimeoutError"
+                      }
+                    },
+                    {
+                      "key": "exception.message",
+                      "value": {
+                        "stringValue": "statement timeout while waiting for a local lock"
+                      }
+                    },
+                    {
+                      "key": "exception.stacktrace",
+                      "value": {
+                        "stringValue": "TimeoutError: statement timeout while waiting for a local lock\n"
+                      }
+                    },
+                    {
+                      "key": "exception.escaped",
+                      "value": {
+                        "stringValue": "False"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "traceId": "4baa0aa408cf65188780d388f0e9edae",
+              "spanId": "0b1bd2b229ea3fbe",
+              "parentSpanId": "c21e31f8176eb866",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514278594761",
+              "endTimeUnixNano": "1792471514313831327",
+              "status": {
+                "code": 2
+              },
+              "events": [
+                {
+                  "name": "exception",
+                  "timeUnixNano": "1792471514313805538",
+                  "attributes": [
+                    {
+                      "key": "exception.type",
+                      "value": {
+                        "stringValue": "TimeoutError"
+                      }
+                    },
+                    {
+                      "key": "exception.message",
+                      "value": {
+                        "stringValue": "statement timeout while waiting for a local lock"
+                      }
+                    },
+                    {
+                      "key": "exception.stacktrace",
+                      "value": {
+                        "stringValue": "TimeoutError: statement timeout while waiting for a local lock\n"
+                      }
+                    },
+                    {
+                      "key": "exception.escaped",
+                      "value": {
+                        "stringValue": "False"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "traceId": "5db6ef828f64ef05bb0fe515aceeb48f",
+              "spanId": "3c333f5e2ff88e47",
+              "parentSpanId": "7ff087f3f6cc4f19",
+              "name": "SELECT account",
+              "startTimeUnixNano": "1792471514319108068",
+              "endTimeUnixNano": "1792471514354349034",
+              "status": {
+                "code": 2
+              },
+              "events": [
+                {
+                  "name": "exception",
+                  "timeUnixNano": "1792471514354323215",
+                  "attributes": [
+                    {
+                      "key": "exception.type",
+                      "value": {
+                        "stringValue": "TimeoutError"
+                      }
+                    },
+                    {
+                      "key": "exception.message",
+                      "value": {
+                        "stringValue": "statement timeout while waiting for a local lock"
+                      }
+                    },
+                    {
+                      "key": "exception.stacktrace",
+                      "value": {
+                        "stringValue": "TimeoutError: statement timeout while waiting for a local lock\n"
+                      }
+                    },
+                    {
+                      "key": "exception.escaped",
+                      "value": {
+                        "stringValue": "False"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "payment"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": {
+            "name": "tracelens-lab"
+          },
+          "spans": [
+            {
+              "traceId": "c39917b5e101d257f54f0e5cb8008719",
+              "spanId": "d25699e52ba255de",
+              "parentSpanId": "b58705a82c7a17c8",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471513977283481",
+              "endTimeUnixNano": "1792471513979417581",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "9be73222b266c2d4b301bd6cff808d06",
+              "spanId": "b25de867545d0459",
+              "parentSpanId": "d64a634fd0aaa96d",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471513984583073",
+              "endTimeUnixNano": "1792471513986699406",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "cd8dc88a1300f3dff1df0fe63e96ec72",
+              "spanId": "7a23431ebda85121",
+              "parentSpanId": "e45c3fb261d409fd",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471513991866071",
+              "endTimeUnixNano": "1792471513993991397",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "c233970354f1a66f7d584e7e125aa5c3",
+              "spanId": "44fe1da02e30a634",
+              "parentSpanId": "75eee7a279741ede",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471513999146314",
+              "endTimeUnixNano": "1792471514001251149",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "4d35c984927169a62bc54d35bcf2f73f",
+              "spanId": "9e78eda511e042d6",
+              "parentSpanId": "04abfaefcbc5dd63",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514006399466",
+              "endTimeUnixNano": "1792471514008506965",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "594626b6ecc4fdcfedd401f903aa192c",
+              "spanId": "98a886e03a281204",
+              "parentSpanId": "7b7305b352936ff3",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514013663875",
+              "endTimeUnixNano": "1792471514015761149",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "d7e9fdc3229d4563d8e3e02d3a40c47c",
+              "spanId": "a74c209aa8b7d2c1",
+              "parentSpanId": "c4f9a10e8c4e253e",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514020919481",
+              "endTimeUnixNano": "1792471514023030196",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "56182bd3d499eccbe33abd599002443f",
+              "spanId": "9c70ad69f69ce67f",
+              "parentSpanId": "991e9b7c55e4e238",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514028193856",
+              "endTimeUnixNano": "1792471514030308866",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "d4e2a2df211a387093281b644cf8ef69",
+              "spanId": "8920804ca24eb303",
+              "parentSpanId": "e71af52ccc1dfc03",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514035505647",
+              "endTimeUnixNano": "1792471514070940014",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "1648bba5a913ab988c0434ee695f2de3",
+              "spanId": "664cb24c5e9d0b41",
+              "parentSpanId": "05a673ea55aa2e23",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514076163333",
+              "endTimeUnixNano": "1792471514111435576",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "183eca160c85841ca6418811a81b68f0",
+              "spanId": "e413e0ba7cdc171c",
+              "parentSpanId": "c02757c0e27f06c2",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514116655000",
+              "endTimeUnixNano": "1792471514151920262",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "b7226cefed82edd0163ce0cf8bee0276",
+              "spanId": "d3b4803f30326629",
+              "parentSpanId": "729aa334391e4c2f",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514157167809",
+              "endTimeUnixNano": "1792471514192402535",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "c52dc6ec46e6cb8effa6c334cb23ef45",
+              "spanId": "60295a897bc39643",
+              "parentSpanId": "c3b39a5b900f3e31",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514197599304",
+              "endTimeUnixNano": "1792471514232879389",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "deaf49efb7f449404df3eafa14751c66",
+              "spanId": "b1fb30461ceda001",
+              "parentSpanId": "9f904d194e704325",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514238080375",
+              "endTimeUnixNano": "1792471514273351696",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "4baa0aa408cf65188780d388f0e9edae",
+              "spanId": "c21e31f8176eb866",
+              "parentSpanId": "c96beb081e8a305b",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514278580009",
+              "endTimeUnixNano": "1792471514313853430",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "5db6ef828f64ef05bb0fe515aceeb48f",
+              "spanId": "7ff087f3f6cc4f19",
+              "parentSpanId": "dd1fc2cc197454f9",
+              "name": "payment.authorize",
+              "startTimeUnixNano": "1792471514319094758",
+              "endTimeUnixNano": "1792471514354370726",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "checkout"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": {
+            "name": "tracelens-lab"
+          },
+          "spans": [
+            {
+              "traceId": "c39917b5e101d257f54f0e5cb8008719",
+              "spanId": "b58705a82c7a17c8",
+              "parentSpanId": "003986b8913bf5dc",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471513977263010",
+              "endTimeUnixNano": "1792471513979425312",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "9be73222b266c2d4b301bd6cff808d06",
+              "spanId": "d64a634fd0aaa96d",
+              "parentSpanId": "8178773bbeb1d4b7",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471513984564956",
+              "endTimeUnixNano": "1792471513986705696",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "cd8dc88a1300f3dff1df0fe63e96ec72",
+              "spanId": "e45c3fb261d409fd",
+              "parentSpanId": "0fefa882f9f7e018",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471513991851509",
+              "endTimeUnixNano": "1792471513993996335",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "c233970354f1a66f7d584e7e125aa5c3",
+              "spanId": "75eee7a279741ede",
+              "parentSpanId": "69d2602e7fcd3610",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471513999133214",
+              "endTimeUnixNano": "1792471514001255646",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "4d35c984927169a62bc54d35bcf2f73f",
+              "spanId": "04abfaefcbc5dd63",
+              "parentSpanId": "6a1bf6edac4bc725",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514006386266",
+              "endTimeUnixNano": "1792471514008511592",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "594626b6ecc4fdcfedd401f903aa192c",
+              "spanId": "7b7305b352936ff3",
+              "parentSpanId": "4c1904f3ebbee8ff",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514013652368",
+              "endTimeUnixNano": "1792471514015766497",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "d7e9fdc3229d4563d8e3e02d3a40c47c",
+              "spanId": "c4f9a10e8c4e253e",
+              "parentSpanId": "1b13effd742586f3",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514020905470",
+              "endTimeUnixNano": "1792471514023035183",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "56182bd3d499eccbe33abd599002443f",
+              "spanId": "991e9b7c55e4e238",
+              "parentSpanId": "59fbc5beb3955fc4",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514028176740",
+              "endTimeUnixNano": "1792471514030313744",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "d4e2a2df211a387093281b644cf8ef69",
+              "spanId": "e71af52ccc1dfc03",
+              "parentSpanId": "a22d7316448a36e0",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514035490784",
+              "endTimeUnixNano": "1792471514070945983",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "1648bba5a913ab988c0434ee695f2de3",
+              "spanId": "05a673ea55aa2e23",
+              "parentSpanId": "5f840468de266a2e",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514076142562",
+              "endTimeUnixNano": "1792471514111449417",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "183eca160c85841ca6418811a81b68f0",
+              "spanId": "c02757c0e27f06c2",
+              "parentSpanId": "4e4a178e2bacd58c",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514116637734",
+              "endTimeUnixNano": "1792471514151926001",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "b7226cefed82edd0163ce0cf8bee0276",
+              "spanId": "729aa334391e4c2f",
+              "parentSpanId": "6c8472c0cff48fc9",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514157139536",
+              "endTimeUnixNano": "1792471514192407402",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "c52dc6ec46e6cb8effa6c334cb23ef45",
+              "spanId": "c3b39a5b900f3e31",
+              "parentSpanId": "4b198e87ce4bbec9",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514197582900",
+              "endTimeUnixNano": "1792471514232884767",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "deaf49efb7f449404df3eafa14751c66",
+              "spanId": "9f904d194e704325",
+              "parentSpanId": "8dbd29f9593aae2d",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514238065593",
+              "endTimeUnixNano": "1792471514273357034",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "4baa0aa408cf65188780d388f0e9edae",
+              "spanId": "c96beb081e8a305b",
+              "parentSpanId": "d8f4fe29f552b5e7",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514278560760",
+              "endTimeUnixNano": "1792471514313860661",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "5db6ef828f64ef05bb0fe515aceeb48f",
+              "spanId": "dd1fc2cc197454f9",
+              "parentSpanId": "0b2f6d9219532298",
+              "name": "checkout.handle",
+              "startTimeUnixNano": "1792471514319075809",
+              "endTimeUnixNano": "1792471514354376746",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "gateway"
+            }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": {
+            "name": "tracelens-lab"
+          },
+          "spans": [
+            {
+              "traceId": "c39917b5e101d257f54f0e5cb8008719",
+              "spanId": "003986b8913bf5dc",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471513977223140",
+              "endTimeUnixNano": "1792471513979431121",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "9be73222b266c2d4b301bd6cff808d06",
+              "spanId": "8178773bbeb1d4b7",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471513984541991",
+              "endTimeUnixNano": "1792471513986710994",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "cd8dc88a1300f3dff1df0fe63e96ec72",
+              "spanId": "0fefa882f9f7e018",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471513991828314",
+              "endTimeUnixNano": "1792471513994000261",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "c233970354f1a66f7d584e7e125aa5c3",
+              "spanId": "69d2602e7fcd3610",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471513999113034",
+              "endTimeUnixNano": "1792471514001259482",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "4d35c984927169a62bc54d35bcf2f73f",
+              "spanId": "6a1bf6edac4bc725",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514006367858",
+              "endTimeUnixNano": "1792471514008515198",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "594626b6ecc4fdcfedd401f903aa192c",
+              "spanId": "4c1904f3ebbee8ff",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514013633559",
+              "endTimeUnixNano": "1792471514015770724",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "d7e9fdc3229d4563d8e3e02d3a40c47c",
+              "spanId": "1b13effd742586f3",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514020885069",
+              "endTimeUnixNano": "1792471514023039520",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "56182bd3d499eccbe33abd599002443f",
+              "spanId": "59fbc5beb3955fc4",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514028158412",
+              "endTimeUnixNano": "1792471514030317860",
+              "status": {
+                "code": 0
+              },
+              "events": []
+            },
+            {
+              "traceId": "d4e2a2df211a387093281b644cf8ef69",
+              "spanId": "a22d7316448a36e0",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514035461510",
+              "endTimeUnixNano": "1792471514070976649",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "1648bba5a913ab988c0434ee695f2de3",
+              "spanId": "5f840468de266a2e",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514076118135",
+              "endTimeUnixNano": "1792471514111454825",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "183eca160c85841ca6418811a81b68f0",
+              "spanId": "4e4a178e2bacd58c",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514116602791",
+              "endTimeUnixNano": "1792471514151932200",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "b7226cefed82edd0163ce0cf8bee0276",
+              "spanId": "6c8472c0cff48fc9",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514157113397",
+              "endTimeUnixNano": "1792471514192412169",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "c52dc6ec46e6cb8effa6c334cb23ef45",
+              "spanId": "4b198e87ce4bbec9",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514197552704",
+              "endTimeUnixNano": "1792471514232889945",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "deaf49efb7f449404df3eafa14751c66",
+              "spanId": "8dbd29f9593aae2d",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514238035197",
+              "endTimeUnixNano": "1792471514273362472",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "4baa0aa408cf65188780d388f0e9edae",
+              "spanId": "d8f4fe29f552b5e7",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514278517554",
+              "endTimeUnixNano": "1792471514313866711",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            },
+            {
+              "traceId": "5db6ef828f64ef05bb0fe515aceeb48f",
+              "spanId": "0b2f6d9219532298",
+              "parentSpanId": "",
+              "name": "POST /checkout",
+              "startTimeUnixNano": "1792471514319043831",
+              "endTimeUnixNano": "1792471514354382544",
+              "status": {
+                "code": 2
+              },
+              "events": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
